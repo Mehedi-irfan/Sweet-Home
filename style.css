@@ -3,3 +3,18 @@ body{
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+/* blog-style-start */
+.section-title{
+    position: relative;
+}
+.section-title::before{
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid gray;
+    left: 40%;
+    right: 40%;
+    bottom: 0;
+    top: 0;
+}
+
+/* blog-style-End */
